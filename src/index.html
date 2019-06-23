@@ -4,9 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="dns-prefetch" href="https://www.google-analytics.com/"> 
     <title>Document</title>
 </head>
+
 <body>
-    
+    <body>
+	<header class="header header__main">
+		<h1>Alex Aviles</h1>
+		<nav>
+			<ul class="menu menu--flex">
+				
+				<li class="menu__item"><a data-scroll href="#about-me">De mi</a></li>
+                <li class="menu__item"><a data-scroll href="#contacts">Contacto</a></li>
+                <li class="menu__item"><a data-scroll href="imagen/cv.png" target="blank">CV</a></li>
+                
+			</ul>
+		</nav>
+		<ul class="header__profiles profiles--flex">
+			<li class="profile__link"><a href="https://github.com/Lexavil"  target="_blank" >github.com</a></li>
+			<li class="profile__link"><a href="https://www.linkedin.com/in/alejandra-avil"  target="_blank">linkedin.com</a></li>
+			<li class="profile__link profile__link__button"><a title="Click para chatear" href="https://api.whatsapp.com/send?phone=523318037794&text=Hola%20Alex,%20me%20gustaría%20ponerme%20en%20contacto%20contigo" target="_blank" rel="noopener">
+                <button type="button" class="email-me modal-toggler">Whatsapp</button></a></li>
+		</ul>
+    </header>
+    <section id="about-me" class="about-me">
+			<h2 class="about-me__title">De mi</h2>
+			<article class="about-me__content">
+				<h2 class="about-me__content__title">About Me</h2>
+				<p>Hola, Soy Alex.</p>
+				<p>Me gusta crear Web Apps responsive y functionales, minimalistas y adecuadas.</p>
+				<p>Persistente, creativa.</p>
+			</article>
+		</section>
+	<main class="main-content">
+		<section id="my-projects" class="my-projects">
+			<h2 class="my-projects__title">Mis Proyectos</h2>
+			<div class="projects--flex">
+				<div class="project-preview">
+					<picture>
+						<img src="imagen/organa.png" alt="organa">
+					</picture>
+					<ul class="project-preview__description description--flex">
+						<li><a href="https://karenhippitaku.github.io/GDL-open-house/src/index.html">Funcionamiento</a></li>
+						<li><a href="https://github.com/Lexavil/GDL-open-house">Codigo</a></li>
+					</ul>
+				</div>
+				<div class="project-preview">
+					<picture>
+						<img src="imagen/guru.PNG" alt="guru">
+					</picture>
+					<ul class="project-preview__description description--flex">
+						<li><a href="https://lexavil.github.io/src/pantallas/index.html" target="blank">Funcionamiento</a></li>
+						<li><a href="https://github.com/Lexavil/visitors">Codigo</a></li>
+					</ul>
+				</div>
+				<div class="project-preview">
+					<picture>
+						<img src="imagen/laba.png" alt="laba">
+					</picture>
+					<ul class="project-preview__description description--flex">
+						<li><a href="https://lexavil.github.io/GDL002-data-lovers/src/index.html" target="blank">La pagina esta diseñada para que el usuario pueda visualizar rápidamente las noticias disponibles, y que si lo requiere pueda organizarlas por fecha, título, o que pueda filtrarlas por autor.</a></li>
+						<li><a href="https://github.com/Lexavil/GDL002-data-lovers">Codigo</a></li>
+					</ul>
+				</div>
+			
+			</div>
+		</section>
+		
+		<section id="contacts" class="contacts">
+			<h2 class="contacts__title">Contacto</h2>
+			<div class="contacts__content--flex">
+				<div class="contacts__content__item">
+					<p>Email: &nbsp; <span>aviles.esp@gmail.com</span></p>
+					<p>cel: &nbsp; <span>+3319862053</span></p>
+				</div>
+				<div class="contacts__content__item">
+                    <p> <span><img src="imagen/4.png"></span></p>
+                    
+				</div>
+			</div>
+        </section>
+        
+	</main>
+	<footer class="footer footer__main">
+		<div class="footer__wrapper--flex">
+			<div class="footer__copyright">
+				<span>&copy; 2019 &nbsp; Alex Aviles</span>
+			</div>
+			<ul class="footer__profiles profiles--flex">
+				<li class="profile__link">
+					<a href="https://github.com/Lexavil" target="_blank">
+						<img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="Go to GitHub Profile">
+					</a>
+				</li>
+				<li class="profile__link">
+					<a href="https://www.linkedin.com/in/alejandra-avil" target="_blank">
+						<img src="https://image.flaticon.com/icons/svg/61/61109.svg" alt="Go to LinkedIn Profile">
+					</a>
+				</li>
+				<li class="profile__link">
+					<a href="https://www.facebook.com/lexavilex" target="_blank">
+						<img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png" alt="Go to My Facebook Profile">
+					</a>
+				</li>
+				<li class="profile__link">
+                        <a title="Click para chatear" href="https://api.whatsapp.com/send?phone=523318037794&text=Hola%20Alex,%20me%20gustaría%20ponerme%20en%20contacto%20contigo" target="_blank" rel="noopener">
+                        <img src="https://image.flaticon.com/icons/png/512/33/33447.png" target="blank">
+                        </a>
+				</li>
+
+
+				</li>
+			</ul>
+		</div>
+	</footer>
+
 </body>
+    
+
 </html>
